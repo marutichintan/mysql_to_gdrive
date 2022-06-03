@@ -8,8 +8,8 @@ const TOKEN_PATH = CONFIG.token_path;
 const FILENAME_SUFFIX = CONFIG.file_name;
 const date = new Date();
 const dateStr =
-  ("00" + (date.getMonth() + 1)).slice(-2) + "-" +
   ("00" + date.getDate()).slice(-2) + "-" +
+  ("00" + (date.getMonth() + 1)).slice(-2) + "-" +
   date.getFullYear() + "_" +
   ("00" + date.getHours()).slice(-2) + "-" +
   ("00" + date.getMinutes()).slice(-2) + "-" +
