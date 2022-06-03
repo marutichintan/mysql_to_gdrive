@@ -1,0 +1,10 @@
+{
+    "db_username":"root",
+    "db_password":"",
+    "db_name":"",
+    "tables":["table1", "table2"],
+    "google_drive_folder": "1RKCz_sF9dGKrut5yLH0rCNVXIzkjsefc",
+    "credentials_path":"credentials.json",
+    "token_path":"token.json",
+    "file_name": "site_backup"
+}
